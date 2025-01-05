@@ -9,7 +9,7 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <img src=" " style="width: 50%;" alt="1">
 <p><i>Current network topography.</i></p>
 <img src=" " style="width: 50%;" alt="1">
-<p><i>Current Snort rules for 'local.rules'.</i></p>
+<p><i>Current Snort rules for 'local.rules' file.</i></p>
 <p>-This test has inspiration and is an adaptation of the exercise explored in: My DFIR - Cybersecurity Tip: Build A Basic Home Lab (3/3) - https://www.youtube.com/watch?v=-8X7Ay4YCoA.</p>
 <p>-Snort forwarding configuration guidelines were taken from Enhanced Logging and Intrusion Detection: Deploying Splunk, Sysmon and Snort - https://victorcoil.tech/?page_id=591.</p>
 <p>-The Windows Server 2019 has been configured to have its firewall and real-time antivirus turned off to allow for malware proof-of-concept deployment.</p>
@@ -30,6 +30,23 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 
 ### Concepts/Skills demonstrated 
 #### Concepts
+
+<p>-Concepts</p>
+<p>--Hardware</p>
+<p>---Networking architecture, ports, and protocols</p>
+
+<p>-Policies, Principles, Procedures</p>
+<p>--Open Worldwide Application Security Project (OWASP) Secure Design Principles</p>
+<p>---Defense In-depth (Splunk, Snort, Wireshark)</p>
+<p>--Cyber kill chain procedures</p>
+<p>---Reconnaissance</p>
+<p>---Weaponization</p>
+<p>---Delivery</p>
+<p>--Software</p>
+<p>--Cybersecurity tools</p>
+<p>---SIEM/SOC</p>
+<p>---IDS</p>
+<p>---Packet Sniffer</p>
 
 #### Skills
 ##### Blue Team
