@@ -63,7 +63,7 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 
 
 ### Timeline
-<img src="https://i.imgur.com/43uiYv2.png" style="width: 100%;" alt="1">
+<img src="https://i.imgur.com/43uiYv2.png" style="width: 75%;" alt="1">
 <p><i>Ref 1:Snort captures of ICMP ping captures from attacking virtual machine.</i></p>
 <img src="https://i.imgur.com/j9ZnABV.png" style="width: 100%;" alt="1">
 <p><i>Ref 2:Splunk forwarded logs from Snort captures of ICMP  of a triggered port scan alert</i></p>
