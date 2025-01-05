@@ -94,7 +94,7 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <p>-Other malware/payload analysis</p>
 <p>-Other tool/application integration</p>
 <p>-Firewall deployment</p>
-
+<p>-Cloud storage virtual machine</p>
 
 
 
