@@ -16,7 +16,7 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <p>-Wireshark is used on the Windows 10 machine is used to monitor the Eth0 virtual adapter for traffic to and from the attacking and targeting virtual machines.</p>
 
 ### Tools/Applications Used
-#### Virtual Machine OS
+#### Virtual Machine OS and Installed Tools/Applications
 <p>-VMware hypervisor on a Lenovo Thinkbook 16 G6</p>
 <p>--Virtual Machine OS</p>
 <p>---Kali Linux</p>
