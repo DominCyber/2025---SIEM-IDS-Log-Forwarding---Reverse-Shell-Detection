@@ -84,3 +84,19 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <img src="https://i.imgur.com/tAb1STU.png" style="width: 100%;" alt="1">
 <p><i>Ref 10:Splunk forwarded logs from Snort capture of Metasploit port 4444, indicating corroborating reverse shell execution.</i></p>
 
+### Future Considerations
+<p>-Integrating Splunk and Sysmon for better log consolidation</p>
+<p>--Better metadata parsing, can see file paths of file downloads and file execution</p>
+<p>---Thus host/system log investigations</p>
+<p>-Present Snort log/.pcap files for MIME data analysis</p>
+<p>-Other malware/payload analysis</p>
+<p>-Other tool/application integration</p>
+<p>-Firewall deployment</p>
+
+
+
+
+
+
+
+
