@@ -6,9 +6,9 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <p>-I DO NOT CONDONE THE USE OF OFFENSIVE MEANS OR TOOLS OUTSIDE OF A TESTING ENVIRONMENT</p>
 <p>-Overall, this baseline test is meant to be a standard for an ever refined test environment to practice concepts, familiarize various red and blue team tool usage, and apply GRC and other cybersecurity administrative concepts.</p>
 <p>-The entire test is conducted within a closed VMware hypervisor environment, with three virtual machines; an attacker Kali Linux, a target Windows Server 2019, and a monitoring Windows 10.</p>
-<img src=" " style="width: 50%;" alt="1">
+<img src="https://i.imgur.com/OqkHqgK.png" style="width: 50%;" alt="1">
 <p><i>Current network topography.</i></p>
-<img src=" " style="width: 50%;" alt="1">
+<img src="https://i.imgur.com/ngeTrRA.png" style="width: 50%;" alt="1">
 <p><i>Current Snort rules for 'local.rules' file.</i></p>
 <p>-This test has inspiration and is an adaptation of the exercise explored in: My DFIR - Cybersecurity Tip: Build A Basic Home Lab (3/3) - https://www.youtube.com/watch?v=-8X7Ay4YCoA.</p>
 <p>-Snort forwarding configuration guidelines were taken from Enhanced Logging and Intrusion Detection: Deploying Splunk, Sysmon and Snort - https://victorcoil.tech/?page_id=591.</p>
@@ -63,24 +63,24 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 
 
 ### Timeline
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 1:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 2:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 3:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 4:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 5:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 6:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 7:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 8:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 9:</i></p>
-<img src=" " style="width: 50%;" alt="1">
-<p><i>Ref 10:</i></p>
+<img src="https://i.imgur.com/43uiYv2.png" style="width: 50%;" alt="1">
+<p><i>Ref 1:Snort captures of ICMP ping captures from attacking virtual machine.</i></p>
+<img src="https://i.imgur.com/j9ZnABV.png" style="width: 50%;" alt="1">
+<p><i>Ref 2:Splunk forwarded logs from Snort captures of ICMP  of a triggered port scan alert</i></p>
+<img src="https://i.imgur.com/0TvbqDC.png" style="width: 50%;" alt="1">
+<p><i>Ref 3:Splunk forwarded logs from Snort captures of ICMP ping captures.</i></p>
+<img src="https://i.imgur.com/3eNwsvV.png" style="width: 50%;" alt="1">
+<p><i>Ref 4:Splunk forwarded logs from Snort captures of a triggered port scan alert.</i></p>
+<img src="https://i.imgur.com/EIJ7mO3.png" style="width: 50%;" alt="1">
+<p><i>Ref 5:Nmap port scan results - Snort port scanning alert - captured scanning of ports 135 and 445.</i></p>
+<img src="https://i.imgur.com/z43zNOJ.png" style="width: 50%;" alt="1">
+<p><i>Ref 6:Snort capture of sustained reverse shell connection from attacking to target virtual machines.</i></p>
+<img src="https://i.imgur.com/6ZL1L4S.png" style="width: 50%;" alt="1">
+<p><i>Ref 7:Wireshark capture of target virtual machine file execution via HTTP GET flag.</i></p>
+<img src="https://i.imgur.com/4hu44lJ.png" style="width: 50%;" alt="1">
+<p><i>Ref 8:Wireshark capture of attacking virtual machine server and script information.</i </p>
+<img src="https://i.imgur.com/tAb1STU.png" style="width: 50%;" alt="1">
+<p><i>Ref 9:Wireshark capture of attacking virtual machine reverse shell script initiating and maintaining connection.</i></p>
+<img src="https://i.imgur.com/tAb1STU.png" style="width: 50%;" alt="1">
+<p><i>Ref 10:Splunk forwarded logs from Snort capture of Metasploit port 4444, indicating corroborating reverse shell execution.</i></p>
 
