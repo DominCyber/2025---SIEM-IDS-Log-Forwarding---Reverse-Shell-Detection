@@ -24,7 +24,9 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <p>--Python3 script (for HTTP listening session)</p>
 <p>-Windows Server 2019</p>
 <p>-Windows 10</p>
-<p>--(Splunk, Snort, Wireshark)</p>
+<p>--Splunk</p>
+<p>--Snort</p>
+<p>--Wireshark</p>
 
 ### Concepts/Skills demonstrated 
 #### Concepts
