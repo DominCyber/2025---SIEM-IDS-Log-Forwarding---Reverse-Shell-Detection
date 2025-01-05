@@ -16,8 +16,7 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 <p>-Wireshark is used on the Windows 10 machine is used to monitor the Eth0 virtual adapter for traffic to and from the attacking and targeting virtual machines.</p>
 
 ### Tools/Applications Used
-#### VMware hypervisor on a Lenovo Thinkbook 16 G6
-##### Virtual Machine OS
+#### Virtual Machine OS
 <p>-VMware hypervisor on a Lenovo Thinkbook 16 G6</p>
 <p>--Virtual Machine OS</p>
 <p>---Kali Linux</p>
@@ -30,28 +29,39 @@ This is a Splunk security information and event management (SIEM) and Snort intr
 
 ### Concepts/Skills demonstrated 
 #### Concepts
+##### Hardware
+<p>-Networking architecture, ports, and protocols</p>
 
-<p>-Concepts</p>
-<p>--Hardware</p>
-<p>---Networking architecture, ports, and protocols</p>
+##### Policies, Principles, Procedures
+<p>-Open Worldwide Application Security Project (OWASP) Secure Design Principles</p>
+<p>--Defense In-depth (Splunk, Snort, Wireshark)</p>
 
-<p>-Policies, Principles, Procedures</p>
-<p>--Open Worldwide Application Security Project (OWASP) Secure Design Principles</p>
-<p>---Defense In-depth (Splunk, Snort, Wireshark)</p>
-<p>--Cyber kill chain procedures</p>
-<p>---Reconnaissance</p>
-<p>---Weaponization</p>
-<p>---Delivery</p>
-<p>--Software</p>
-<p>--Cybersecurity tools</p>
-<p>---SIEM/SOC</p>
-<p>---IDS</p>
-<p>---Packet Sniffer</p>
+##### Techniques
+<p>-Cyber kill chain procedures</p>
+<p>--Reconnaissance</p>
+<p>--Weaponization</p>
+<p>--Delivery</p>
+
+##### Software</p>
+<p>-Cybersecurity tools</p>
+<p>--SIEM/SOC</p>
+<p>--IDS</p>
+<p>--Packet Sniffer</p>
 
 #### Skills
 ##### Blue Team
+<p>-Cybersecurity tools install, configuration, integration, and log forwarding</p>
+<p>-Reconnaissance Detection - Snort IDS, Wireshark packet sniffer</p>
+<p>-Weaponization Detection and Analysis- Snort IDS, Wireshark packet sniffer</p>
+<p>-Log Aggregation - Splunk SIEM, Snort IDS, Wireshark packet sniffer</p>
+<p>-Log Consolidation - Splunk SIEM, Snort IDS</p>
 
 ##### Red Team
+<p>-Reconnaissance - enumerating target VM's ports</p>
+<p>-Weaponization - Metasploit reverse shell payload creation</p>
+<p>-Weaponization - Metasploit console configuration and execution</p>
+<p>-Delivery - via web application</p>
+
 
 ### Timeline
 <img src=" " style="width: 50%;" alt="1">
